@@ -1,5 +1,6 @@
 ﻿{
     "country":  "base",
+    "versioningStrategy":  -1,
     "appFolders":  [
                        "apps\\W1\\AMCBanking365Fundamentals\\app",
                        "apps\\W1\\AnonymizedDataSharing\\app",
