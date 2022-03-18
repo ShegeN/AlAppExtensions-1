@@ -2,7 +2,11 @@ Param(
     [Hashtable]$parameters
 )
 
+docker stats --no-stream | out-host
+
 Publish-BcContainerApp @parameters
+
+docker stats --no-stream | out-host
 
 $filename = [System.IO.Path]::GetFileName($parameters.appFile)
 $packagesFolder = Join-Path ([System.IO.Path]::GetDirectoryName($parameters.appFile)) "..\.packages"
@@ -23,3 +27,5 @@ elseif ($filename -like "Microsoft_System Application Test Library_*.*.*.*.app")
     $parameters.appFile = Join-Path $packagesFolder "Microsoft_Tests-TestLibraries.app"
     Publish-BcContainerApp @parameters
 }
+
+docker stats --no-stream | out-host

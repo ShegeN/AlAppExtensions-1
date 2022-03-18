@@ -2,6 +2,8 @@ Param(
     [Hashtable] $parameters
 )
 
+docker stats --no-stream | out-host
+
 $appFile = Compile-AppInBcContainer @parameters
 
 if ($appFile) {
@@ -36,5 +38,6 @@ if ($appFile) {
         } -argumentList (Get-BcContainerPath -ContainerName $parameters.ContainerName -path $Parameters.appSymbolsFolder)
     }
 }
+docker stats --no-stream | out-host
 
 $appFile
