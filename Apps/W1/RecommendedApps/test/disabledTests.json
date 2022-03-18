@@ -1,0 +1,38 @@
+﻿[
+    {
+        "Method":  "TestInsertApp",
+        "CodeunitName":  "Recommended Apps Tests"
+    },
+    {
+        "Method":  "TestInsertAppWhenURLAppInfoAreWrong",
+        "CodeunitName":  "Recommended Apps Tests"
+    },
+    {
+        "Method":  "TestGetApp",
+        "CodeunitName":  "Recommended Apps Tests"
+    },
+    {
+        "Method":  "TestUpdateApp",
+        "CodeunitName":  "Recommended Apps Tests"
+    },
+    {
+        "Method":  "TestRefreshImage",
+        "CodeunitName":  "Recommended Apps Tests"
+    },
+    {
+        "Method":  "TestDeleteApp",
+        "CodeunitName":  "Recommended Apps Tests"
+    },
+    {
+        "Method":  "TestDeleteAllApps",
+        "CodeunitName":  "Recommended Apps Tests"
+    },
+    {
+        "Method":  "TestGetAppURL",
+        "CodeunitName":  "Recommended Apps Tests"
+    },
+    {
+        "Method":  "TestGetAppURLWrongAppId",
+        "CodeunitName":  "Recommended Apps Tests"
+    }
+]

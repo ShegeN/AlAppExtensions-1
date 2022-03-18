@@ -1,0 +1,62 @@
+﻿[
+    {
+        "Method":  "TestQBOAccountImport",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOAccountImportWhenNoneExistOnQBO",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOAccountImportWhenBadResponseFromQBO",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOAccountImportWithEmptyAcctNum",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOCustomerImport",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOCustomerImportWhenNoneExistOnQBO",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOCustomerImportWhenBadResponseFromQBO",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOItemsImport",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOItemsImportWhenNoneExistOnQBO",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOItemImportWhenBadResponseFromQBO",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOItemsImportAverageCost",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOItemPostingSetup",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOVendorImport",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOVendorImportWhenNoneExistOnQBO",
+        "CodeunitName":  "MigrationQBO Tests"
+    },
+    {
+        "Method":  "TestQBOVendorImportWhenBadResponseFromQBO",
+        "CodeunitName":  "MigrationQBO Tests"
+    }
+]

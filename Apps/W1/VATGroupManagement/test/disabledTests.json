@@ -1,0 +1,82 @@
+﻿[
+    {
+        "Method":  "TestMemberWindowsAuthentication",
+        "CodeunitName":  "VAT Group Setup Guide Test"
+    },
+    {
+        "Method":  "SingleStatus_BC",
+        "CodeunitName":  "VAT Group Mock Service Test"
+    },
+    {
+        "Method":  "SingleStatus_2018",
+        "CodeunitName":  "VAT Group Mock Service Test"
+    },
+    {
+        "Method":  "SingleStatus_2017",
+        "CodeunitName":  "VAT Group Mock Service Test"
+    },
+    {
+        "Method":  "BatchStatus_BC",
+        "CodeunitName":  "VAT Group Mock Service Test"
+    },
+    {
+        "Method":  "BatchStatus_2018",
+        "CodeunitName":  "VAT Group Mock Service Test"
+    },
+    {
+        "Method":  "BatchStatus_2017",
+        "CodeunitName":  "VAT Group Mock Service Test"
+    },
+    {
+        "Method":  "Submit_BC",
+        "CodeunitName":  "VAT Group Mock Service Test"
+    },
+    {
+        "Method":  "Submit_2018",
+        "CodeunitName":  "VAT Group Mock Service Test"
+    },
+    {
+        "Method":  "Submit_2017",
+        "CodeunitName":  "VAT Group Mock Service Test"
+    },
+    {
+        "Method":  "TestFailureInSend",
+        "CodeunitName":  "VAT Group Submit To Repr. Test"
+    },
+    {
+        "Method":  "TestFailureInSendMissingApprovedMember",
+        "CodeunitName":  "VAT Group Submit To Repr. Test"
+    },
+    {
+        "Method":  "TestSuccessfulSend",
+        "CodeunitName":  "VAT Group Submit To Repr. Test"
+    },
+    {
+        "Method":  "TestQueryAPIEndpoint",
+        "CodeunitName":  "VAT Group Sub. Status Test"
+    },
+    {
+        "Method":  "TestVATGroupSubmissionStatusBatchRequest",
+        "CodeunitName":  "VAT Group Sub. Status Test"
+    },
+    {
+        "Method":  "TestVATGroupSubmissionStatusWrongBatchEndpoint",
+        "CodeunitName":  "VAT Group Sub. Status Test"
+    },
+    {
+        "Method":  "TestVATGroupSubmissionStatusErrorSingleGETRequestInBatch",
+        "CodeunitName":  "VAT Group Sub. Status Test"
+    },
+    {
+        "Method":  "TestUpdateSingleVATReportStatus",
+        "CodeunitName":  "VAT Group Sub. Status Test"
+    },
+    {
+        "Method":  "TestUpdateSingleVATReportStatusError",
+        "CodeunitName":  "VAT Group Sub. Status Test"
+    },
+    {
+        "Method":  "TestButtonUpdateStatusVATReportPage",
+        "CodeunitName":  "VAT Group Sub. Status Test"
+    }
+]

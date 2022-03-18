@@ -1,0 +1,26 @@
+﻿[
+    {
+        "Method":  "TestSetupPaymentService",
+        "CodeunitName":  "MS - WorldPay Standard Tests"
+    },
+    {
+        "Method":  "TestEnablingWhenClosingSetupPage",
+        "CodeunitName":  "MS - WorldPay Standard Tests"
+    },
+    {
+        "Method":  "TestEditWorldPayTemplate",
+        "CodeunitName":  "MS - WorldPay Standard Tests"
+    },
+    {
+        "Method":  "TestResetToDefaultWorldPayTemplate",
+        "CodeunitName":  "MS - WorldPay Standard Tests"
+    },
+    {
+        "Method":  "TestResetToDefaultWorldPayTemplateInDemoCompany",
+        "CodeunitName":  "MS - WorldPay Standard Tests"
+    },
+    {
+        "Method":  "TestServiceConnectionListOpensPaymentServicesSetupCard",
+        "CodeunitName":  "MS - WorldPay Standard Tests"
+    }
+]

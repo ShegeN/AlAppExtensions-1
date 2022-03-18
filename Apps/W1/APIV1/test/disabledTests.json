@@ -1,0 +1,1630 @@
+﻿[
+    {
+        "Method":  "TestCreateSimpleItem",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestCreateItemWithCategoryId",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestCreateItemWithCategoryCode",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestCreateItemWithComplexType",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestCreateItemWithTemplate",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestCreateItemWithTemplateIgnoresFieldsSet",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestGetSimpleItem",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestGetItemWithCategory",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestGetItemWithComplexType",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestModifyItem",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestModifyItemInventory",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestModifyItemWithComplexType",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestRemoveComplexTypeFromItemUsingNull",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestRemoveComplexTypeFromItemUsingBlankValue",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestDeleteItem",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestPostItemWithUoMIdCreatesItemUoM",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestPatchItemWithUoMIdCreatesItemUoM",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestPatchItemWithCategoryCode",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestPatchItemWithCategoryId",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestPostItemWithUoMComplexTypeCreatesItemUoM",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestPatchItemWithUoMComplexTypeCreatesItemUoM",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestUoMSync",
+        "CodeunitName":  "APIV1 - Items E2E"
+    },
+    {
+        "Method":  "TestGetAccounts",
+        "CodeunitName":  "APIV1 - Accounts E2E"
+    },
+    {
+        "Method":  "TestGetSimpleCustomer",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestGetCustomerWithComplexType",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestGetCustomerWithAddressAndSpecialCharacters",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestCreateDetailedCustomer",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestCreateCustomerWithComplexType",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestCreateCustomerWithTemplate",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestDeleteCustomer",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestModifyCustomer",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestModifyCustomerWithComplexType",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestRemoveComplexTypeFromCustomer",
+        "CodeunitName":  "APIV1 - Customers E2E"
+    },
+    {
+        "Method":  "TestGetSimpleVendor",
+        "CodeunitName":  "APIV1 - Vendors E2E"
+    },
+    {
+        "Method":  "TestGetVendorWithComplexType",
+        "CodeunitName":  "APIV1 - Vendors E2E"
+    },
+    {
+        "Method":  "TestCreateSimpleVendor",
+        "CodeunitName":  "APIV1 - Vendors E2E"
+    },
+    {
+        "Method":  "TestCreateVendorWithComplexType",
+        "CodeunitName":  "APIV1 - Vendors E2E"
+    },
+    {
+        "Method":  "TestCreateVendorWithTemplate",
+        "CodeunitName":  "APIV1 - Vendors E2E"
+    },
+    {
+        "Method":  "TestModifyVendor",
+        "CodeunitName":  "APIV1 - Vendors E2E"
+    },
+    {
+        "Method":  "TestVendorModifyWithComplexTypes",
+        "CodeunitName":  "APIV1 - Vendors E2E"
+    },
+    {
+        "Method":  "TestRemoveComplexTypeFromVendor",
+        "CodeunitName":  "APIV1 - Vendors E2E"
+    },
+    {
+        "Method":  "TestDeleteVendor",
+        "CodeunitName":  "APIV1 - Vendors E2E"
+    },
+    {
+        "Method":  "TestGetPaymentTerms",
+        "CodeunitName":  "APIV1 - Payment Terms E2E"
+    },
+    {
+        "Method":  "TestGetShipmentMethods",
+        "CodeunitName":  "APIV1 - Shipment Methods E2E"
+    },
+    {
+        "Method":  "TestGetCompanyInformationWithComplexType",
+        "CodeunitName":  "APIV1 - Company Info. E2E"
+    },
+    {
+        "Method":  "TestModifyCompanyInformation",
+        "CodeunitName":  "APIV1 - Company Info. E2E"
+    },
+    {
+        "Method":  "TestModifyCompanyInformationWithComplexType",
+        "CodeunitName":  "APIV1 - Company Info. E2E"
+    },
+    {
+        "Method":  "TestRemoveComplexTypeFromCompanyInformation",
+        "CodeunitName":  "APIV1 - Company Info. E2E"
+    },
+    {
+        "Method":  "TestGetItemCategories",
+        "CodeunitName":  "APIV1 - Item Categories E2E"
+    },
+    {
+        "Method":  "TestCreateItemCategory",
+        "CodeunitName":  "APIV1 - Item Categories E2E"
+    },
+    {
+        "Method":  "TestModifyItemCategory",
+        "CodeunitName":  "APIV1 - Item Categories E2E"
+    },
+    {
+        "Method":  "TestDeleteItemCategory",
+        "CodeunitName":  "APIV1 - Item Categories E2E"
+    },
+    {
+        "Method":  "TestGetTaxGroups",
+        "CodeunitName":  "Tax Groups E2E"
+    },
+    {
+        "Method":  "TestGetTaxGroup",
+        "CodeunitName":  "Tax Groups E2E"
+    },
+    {
+        "Method":  "TestCreateTaxGroup",
+        "CodeunitName":  "Tax Groups E2E"
+    },
+    {
+        "Method":  "TestModifyTaxGroup",
+        "CodeunitName":  "Tax Groups E2E"
+    },
+    {
+        "Method":  "TestDeleteTaxGroup",
+        "CodeunitName":  "Tax Groups E2E"
+    },
+    {
+        "Method":  "TestGetInvoices",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestPostInvoices",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceWithCurrency",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceWithEmail",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceWithDates",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestModifyInvoices",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestEmptyModifyInvoices",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestPartialModifyInvoices",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestModifyingWithBlankIdEmptiesTheCodeAndTheId",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestModifyInvoiceNumberForDraftInvoice",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestDeleteInvoice",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestCreateInvoiceThroughPageAndAPI",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestGetInvoicesAppliesDiscountPct",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestGetInvoicesRedistributesDiscountAmt",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestModifyInvoiceSetManualDiscount",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestClearingManualDiscounts",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestActionPostInvoice",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestActionPostAndSendInvoice",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestActionCancelInvoice",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestActionCancelAndSendInvoice",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestActionSendPostedInvoice",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestActionSendDraftInvoice",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestActionSendCancelledInvoice",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestActionMakeCorrectiveCreditMemo",
+        "CodeunitName":  "Sales Invoices E2E"
+    },
+    {
+        "Method":  "TestGetCountriesRegions",
+        "CodeunitName":  "Countries/Regions E2E"
+    },
+    {
+        "Method":  "TestCreateCountriesRegions",
+        "CodeunitName":  "Countries/Regions E2E"
+    },
+    {
+        "Method":  "TestModifyCountriesRegions",
+        "CodeunitName":  "Countries/Regions E2E"
+    },
+    {
+        "Method":  "TestDeleteCountriesRegions",
+        "CodeunitName":  "Countries/Regions E2E"
+    },
+    {
+        "Method":  "TestGetOrders",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestPostOrders",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestPostOrderForCustomerWithLocationCode",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestPostOrderWithCurrency",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestModifyOrders",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestEmptyModifyOrders",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestPartialModifyOrders",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestDeleteOrders",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestCreateOrderThroughPageAndAPI",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestGetOrdersAppliesDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestGetOrdersRedistributesDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestModifyOrderSetManualDiscount",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestClearingManualDiscounts",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestActionShipAndInvoice",
+        "CodeunitName":  "APIV1 - Sales Orders E2E"
+    },
+    {
+        "Method":  "TestGetUnitOfMeasure",
+        "CodeunitName":  "APIV1 - UofM E2E"
+    },
+    {
+        "Method":  "TestModifyUnitOfMeasure",
+        "CodeunitName":  "APIV1 - UofM E2E"
+    },
+    {
+        "Method":  "TestDeleteUnitOfMeasure",
+        "CodeunitName":  "APIV1 - UofM E2E"
+    },
+    {
+        "Method":  "TestInsertUnitOfMeasure",
+        "CodeunitName":  "APIV1 - UofM E2E"
+    },
+    {
+        "Method":  "TestGetCurrencies",
+        "CodeunitName":  "APIV1 - Currencies E2E"
+    },
+    {
+        "Method":  "TestCreateCurrency",
+        "CodeunitName":  "APIV1 - Currencies E2E"
+    },
+    {
+        "Method":  "TestModifyCurrency",
+        "CodeunitName":  "APIV1 - Currencies E2E"
+    },
+    {
+        "Method":  "TestDeleteCurrency",
+        "CodeunitName":  "APIV1 - Currencies E2E"
+    },
+    {
+        "Method":  "TestGetPaymentMethods",
+        "CodeunitName":  "Payment Methods E2E"
+    },
+    {
+        "Method":  "TestCreatePaymentMethods",
+        "CodeunitName":  "Payment Methods E2E"
+    },
+    {
+        "Method":  "TestModifyPaymentMethods",
+        "CodeunitName":  "Payment Methods E2E"
+    },
+    {
+        "Method":  "TestDeletePaymentMethods",
+        "CodeunitName":  "Payment Methods E2E"
+    },
+    {
+        "Method":  "TestGetBalanceSheetRecords",
+        "CodeunitName":  "APIV1 - Balance Sheet E2E"
+    },
+    {
+        "Method":  "TestGetIncomeStatementRecords",
+        "CodeunitName":  "APIV1 - Income Statement E2E"
+    },
+    {
+        "Method":  "TestGetCashFlowRecords",
+        "CodeunitName":  "APIV1 - CashFlow Statement E2E"
+    },
+    {
+        "Method":  "TestGetTrialBalanceRecords",
+        "CodeunitName":  "APIV1 - Trial Balance E2E"
+    },
+    {
+        "Method":  "TestGetAgedAPRecords",
+        "CodeunitName":  "APIV1 - Aged AP E2E"
+    },
+    {
+        "Method":  "TestGetAgedARRecords",
+        "CodeunitName":  "APIV1 - Aged AR E2E"
+    },
+    {
+        "Method":  "TestRetainedEarningsStatementRecords",
+        "CodeunitName":  "APIV1 - Ret. Earnings E2E"
+    },
+    {
+        "Method":  "TestGetEmployee",
+        "CodeunitName":  "APIV1 - Employees E2E"
+    },
+    {
+        "Method":  "TestCreateEmployee",
+        "CodeunitName":  "APIV1 - Employees E2E"
+    },
+    {
+        "Method":  "TestModifyEmployee",
+        "CodeunitName":  "APIV1 - Employees E2E"
+    },
+    {
+        "Method":  "TestDeleteEmployee",
+        "CodeunitName":  "APIV1 - Employees E2E"
+    },
+    {
+        "Method":  "TestGetQuotes",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestPostQuotes",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestPostQuoteWithCurrency",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestModifyQuotes",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestEmptyModifyQuotes",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestPartialModifyQuotes",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestDeleteQuotes",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestCreateQuoteThroughPageAndAPI",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestGetQuotesAppliesDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestGetQuotesRedistributesDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestModifyQuoteSetManualDiscount",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestClearingManualDiscounts",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestActionSendQuote",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestActionMakeInvoiceFromQuote",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestActionMakeOrderFromQuote",
+        "CodeunitName":  "APIV1 - Sales Quotes E2E"
+    },
+    {
+        "Method":  "TestGetDimensions",
+        "CodeunitName":  "APIV1 - Dimensions E2E"
+    },
+    {
+        "Method":  "TestGetDimensionValues",
+        "CodeunitName":  "APIV1 - Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDimensionLine",
+        "CodeunitName":  "APIV1 - Dimension Lines E2E"
+    },
+    {
+        "Method":  "TestCreateDoesntWorkWithAlreadyExistingCode",
+        "CodeunitName":  "APIV1 - Dimension Lines E2E"
+    },
+    {
+        "Method":  "TestGetDimensionLinesOfJournalLines",
+        "CodeunitName":  "APIV1 - Dimension Lines E2E"
+    },
+    {
+        "Method":  "TestModifyDimensionLine",
+        "CodeunitName":  "APIV1 - Dimension Lines E2E"
+    },
+    {
+        "Method":  "TestModifyOfDimensionCodeDoesntWork",
+        "CodeunitName":  "APIV1 - Dimension Lines E2E"
+    },
+    {
+        "Method":  "TestDeleteDimensionLine",
+        "CodeunitName":  "APIV1 - Dimension Lines E2E"
+    },
+    {
+        "Method":  "TestGetTaxAreas",
+        "CodeunitName":  "APIV1 - Tax Areas E2E"
+    },
+    {
+        "Method":  "TestGetTaxArea",
+        "CodeunitName":  "APIV1 - Tax Areas E2E"
+    },
+    {
+        "Method":  "TestCreateTaxArea",
+        "CodeunitName":  "APIV1 - Tax Areas E2E"
+    },
+    {
+        "Method":  "TestModifyTaxArea",
+        "CodeunitName":  "APIV1 - Tax Areas E2E"
+    },
+    {
+        "Method":  "TestDeleteTaxArea",
+        "CodeunitName":  "APIV1 - Tax Areas E2E"
+    },
+    {
+        "Method":  "TestCreateJournal",
+        "CodeunitName":  "APIV1 - Journals E2E"
+    },
+    {
+        "Method":  "TestGetJournals",
+        "CodeunitName":  "APIV1 - Journals E2E"
+    },
+    {
+        "Method":  "TestModifyJournal",
+        "CodeunitName":  "APIV1 - Journals E2E"
+    },
+    {
+        "Method":  "TestDeleteJournal",
+        "CodeunitName":  "APIV1 - Journals E2E"
+    },
+    {
+        "Method":  "TestActionPostGenJournalBatch",
+        "CodeunitName":  "APIV1 - Journals E2E"
+    },
+    {
+        "Method":  "TestGetCreditMemos",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestPostCreditMemos",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestPostCreditMemoWithCurrency",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestModifyCreditMemos",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestEmptyModifyCreditMemos",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestPartialModifyCreditMemos",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestDeleteCreditMemo",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestCreateCreditMemoThroughPageAndAPI",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestGetCreditMemosAppliesDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestGetCreditMemosRedistributesDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestModifyCreditMemoSetManualDiscount",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestClearingManualDiscounts",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestActionPostCreditMemo",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestActionPostAndSendCreditMemo",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestActionCancelCorrectiveCreditMemo",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestActionCancelAndSendCorrectiveCreditMemo",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestActionSendPostedCreditMemo",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestActionSendCancelledCreditMemo",
+        "CodeunitName":  "APIV1 - Sales Credit Memos E2E"
+    },
+    {
+        "Method":  "TestGetInvoices",
+        "CodeunitName":  "APIV1 - Purchase Invoices E2E"
+    },
+    {
+        "Method":  "TestPostInvoices",
+        "CodeunitName":  "APIV1 - Purchase Invoices E2E"
+    },
+    {
+        "Method":  "TestPostPurchaseInvoiceWithCurrency",
+        "CodeunitName":  "APIV1 - Purchase Invoices E2E"
+    },
+    {
+        "Method":  "TestModifyInvoices",
+        "CodeunitName":  "APIV1 - Purchase Invoices E2E"
+    },
+    {
+        "Method":  "TestEmptyModifyInvoices",
+        "CodeunitName":  "APIV1 - Purchase Invoices E2E"
+    },
+    {
+        "Method":  "TestPartialModifyInvoices",
+        "CodeunitName":  "APIV1 - Purchase Invoices E2E"
+    },
+    {
+        "Method":  "TestDeleteInvoice",
+        "CodeunitName":  "APIV1 - Purchase Invoices E2E"
+    },
+    {
+        "Method":  "TestCreateInvoiceThroughPageAndAPI",
+        "CodeunitName":  "APIV1 - Purchase Invoices E2E"
+    },
+    {
+        "Method":  "TestActionPostPurchaseInvoice",
+        "CodeunitName":  "APIV1 - Purchase Invoices E2E"
+    },
+    {
+        "Method":  "TestGetGLEntries",
+        "CodeunitName":  "APIV1 - GLEntries E2E"
+    },
+    {
+        "Method":  "TestCreateRSPackage",
+        "CodeunitName":  "APIV1 - Automation RS Package"
+    },
+    {
+        "Method":  "TestUploadRSPackageFile",
+        "CodeunitName":  "APIV1 - Automation RS Package"
+    },
+    {
+        "Method":  "TestImportRSPackage",
+        "CodeunitName":  "APIV1 - Automation RS Package"
+    },
+    {
+        "Method":  "TestImportWrongRSPackage",
+        "CodeunitName":  "APIV1 - Automation RS Package"
+    },
+    {
+        "Method":  "TestApplyRSPackage",
+        "CodeunitName":  "APIV1 - Automation RS Package"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionWithDimensionCodeOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionWithDimensionCodeOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionWithDimensionCodeOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithoutDimensionOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithoutDimensionOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithoutDimensionOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithMismatchingDimensionsOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithMismatchingDimensionsOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithMismatchingDimensionsOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithBlockedDimensionOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithBlockedDimensionOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithBlockedDimensionOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithBlockedDimensionValueOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithBlockedDimensionValueOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestCreateDefaultDimensionFailsWithBlockedDimensionValueOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestDeleteDefaultDimensionOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestDeleteDefaultDimensionOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestDeleteDefaultDimensionOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestGetDefaultDimensionOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestGetDefaultDimensionOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestGetDefaultDimensionOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestPatchDefaultDimensionOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestPatchDefaultDimensionOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestPatchDefaultDimensionOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestPatchDefaultDimensionFailsWithBlockedValueOnCustomer",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestPatchDefaultDimensionFailsWithBlockedValueOnVendor",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestPatchDefaultDimensionFailsWithBlockedValueOnItem",
+        "CodeunitName":  "APIV1 - Default Dimensions E2E"
+    },
+    {
+        "Method":  "TestGetJournalLineAttachments",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetGLEntryAttachments",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetPostedInvoiceAttachments",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetDraftInvoiceAttachments",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetPostedPurchaseInvoiceAttachments",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetDraftPurchaseInvoiceAttachments",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetQuoteAttachments",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetJournalLineAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetJournalAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetGLEntryAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetPostedInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetDraftInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetQuoteAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestUpdateGenJournalLineAttachmentBinaryContent",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestUpdateGLEntryAttachmentBinaryContent",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestCreateJournalLineAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestCreateGLEntryAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestCreatePostedInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestCreateDraftInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestCreatePostedPurchaseInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestCreateDraftPurchaseInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestCreateQuoteAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestDeleteJournalLineAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestDeleteGLEntryAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestDeletePostedInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestDeleteDraftInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestDeletePostedPurchaseInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestDeleteDraftPurchaseInvoiceAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestDeleteQuoteAttachment",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestTransferAttachmentFromDraftToPostedInvoice",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestTransferAttachmentFromDraftToPostedPurchaseInvoice",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestLinkedAttachmentFileNameChangeKeepsOtherFieldsUnchanged",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestLinkedAttachmentContentChangeKeepsOtherFieldsUnchanged",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestLinkedAttachmentIdChangeNotAllowed",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestLinkedAttachmentDocumentIdChangeNotAllowed",
+        "CodeunitName":  "APIV1 - Attachments E2E"
+    },
+    {
+        "Method":  "TestGetInvoiceLineDirectly",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestGetInvoiceLines",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestGetInvoiceLinesDirectlyWithDocumentIdFilter",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestGetPostedInvoiceLines",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceLines",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceLineWithSequence",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceLinesWithUoM",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestModifyInvoiceLine",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestModifyInvoiceLineWithUoM",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestDeleteInvoiceLine",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestCreateLineThroughPageAndAPI",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestInsertingLineUpdatesInvoiceDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestModifyingLineUpdatesInvoiceDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineMovesInvoiceDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineRemovesInvoiceDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestModifyingLineKeepsInvoiceDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineKeepsInvoiceDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestGettingLinesWithDifferentTypes",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestPostingBlankLineDefaultsToItemType",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestPostingCommentLine",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheIdToAccountChangesLineType",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheIdToItemChangesLineType",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheTypeBlanksIds",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceLinesWithItemVariant",
+        "CodeunitName":  "APIV1 - Sales Inv. Lines E2E"
+    },
+    {
+        "Method":  "TestGetOrderLineDirectly",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestGetOrderLines",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestGetOrderLinesDirectlyWithDocumentIdFilter",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestPostOrderLines",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestModifyOrderLines",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestDeleteOrderLine",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestCreateLineThroughPageAndAPI",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestInsertingLineUpdatesOrderDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestModifyingLineUpdatesOrderDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineMovesOrderDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineRemovesOrderDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestModifyingLineKeepsOrderDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineKeepsOrderDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestGettingLinesWithDifferentTypes",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestPostingBlankLineDefaultsToItemType",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestPostingCommentLine",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheIdToAccountChangesLineType",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheIdToItemChangesLineType",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheTypeBlanksIds",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestPostOrderLineWithItemVariant",
+        "CodeunitName":  "APIV1 - Sales Order Lines E2E"
+    },
+    {
+        "Method":  "TestGetQuoteLineDirectly",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestGetQuoteLines",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestGetQuoteLinesDirectlyWithDocumentIdFilter",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestPostQuoteLines",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestModifyQuoteLines",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestDeleteQuoteLine",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestInsertingLineUpdatesQuoteDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestModifyingLineUpdatesQuoteDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineMovesQuoteDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineRemovesQuoteDiscountPct",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestInsertingLineKeepsQuoteDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestModifyingLineKeepsQuoteDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineKeepsQuoteDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestPostingBlankLineDefaultsToItemType",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestPostingCommentLine",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheTypeBlanksIds",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestPostQuoteLinesWithItemVariant",
+        "CodeunitName":  "APIV1 - Sales Quote Lines E2E"
+    },
+    {
+        "Method":  "TestGetCreditMemoLineDirectly",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestGetCreditMemoLines",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestGetCreditMemoLinesDirectlyWithDocumentIdFilter",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestGetPostedCreditMemoLines",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestPostCreditMemoLines",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestPostCreditMemoLineWithSequence",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestModifyCreditMemoLines",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestDeleteCreditMemoLine",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestDeletePostedCreditMemoLine",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestCreateLineThroughPageAndAPI",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestInsertingLineUpdatesCreditMemoDiscountPct",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestModifyingLineUpdatesCreditMemoDiscountPct",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineMovesCreditMemoDiscountPct",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineRemovesCreditMemoDiscountPct",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestModifyingLineKeepsCreditMemoDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineKeepsCreditMemoDiscountAmt",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestGettingLinesWithDifferentTypes",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestPostingBlankLineDefaultsToItemType",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestPostingCommentLine",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheIdToAccountChangesLineType",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheIdToItemChangesLineType",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheTypeBlanksIds",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestPostCreditMemoLinesWithItemVariant",
+        "CodeunitName":  "APIV1 - Sales CrMemo Lines E2E"
+    },
+    {
+        "Method":  "TestGetInvoiceLineDirectly",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestGetInvoiceLines",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestGetInvoiceLinesDirectlyWithDocumentIdFilter",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestGetPostedInvoiceLines",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceLines",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceLineWithSequence",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestModifyInvoiceLines",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestDeleteInvoiceLine",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestCreateLineThroughPageAndAPI",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestInsertingLineUpdatesInvoiceDiscountPct",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestModifyingLineUpdatesInvoiceDiscountPct",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestDeletingLineRemovesInvoiceDiscountPct",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestPostingBlankLineDefaultsToItemType",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestPostingCommentLine",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestPatchingTheTypeBlanksIds",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestPostInvoiceLinesWithItemVariant",
+        "CodeunitName":  "APIV1 - Purchase Inv Lines E2E"
+    },
+    {
+        "Method":  "TestCreateItemVariantWithItemId",
+        "CodeunitName":  "APIV1 - Item Variants E2E"
+    },
+    {
+        "Method":  "TestCreateItemVariantWithItemNumber",
+        "CodeunitName":  "APIV1 - Item Variants E2E"
+    },
+    {
+        "Method":  "TestCreateItemVariantWithItemNumberAndItemId",
+        "CodeunitName":  "APIV1 - Item Variants E2E"
+    },
+    {
+        "Method":  "TestGetItemVariant",
+        "CodeunitName":  "APIV1 - Item Variants E2E"
+    },
+    {
+        "Method":  "TestModifyItemVariant",
+        "CodeunitName":  "APIV1 - Item Variants E2E"
+    },
+    {
+        "Method":  "TestModifyItemVariantItemId",
+        "CodeunitName":  "APIV1 - Item Variants E2E"
+    },
+    {
+        "Method":  "TestModifyItemVariantItemNumber",
+        "CodeunitName":  "APIV1 - Item Variants E2E"
+    },
+    {
+        "Method":  "TestDeleteItemVariant",
+        "CodeunitName":  "APIV1 - Item Variants E2E"
+    },
+    {
+        "Method":  "TestGetPictureValueCustomer",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureMetadataCustomer",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureValueCustomerWithoutPicture",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureMetadataCustomerWithoutPicture",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureUploadCustomer",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureReplaceCustomer",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureDeleteCustomer",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureValueVendor",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureMetadataVendor",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureValueVendorWithoutPicture",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureMetadataVendorWithoutPicture",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureUploadVendor",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureReplaceVendor",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureDeleteVendor",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureValueEmployee",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureMetadataEmployee",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureValueEmployeeWithoutPicture",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureMetadataEmployeeWithoutPicture",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureUploadEmployee",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureReplaceEmployee",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureDeleteEmployee",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureValueItem",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureMetadataItem",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureValueItemWithoutPicture",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestGetPictureMetadatItemWithoutPicture",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureUploadItem",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureReplaceItem",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestPictureDeleteItem",
+        "CodeunitName":  "APIV1 - Pictures E2E"
+    },
+    {
+        "Method":  "TestCreateCustomerPayment",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestCreateCustomerPaymentWithoutDocNo",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestCreateCustomerPaymentWithInvoiceId",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestGetCustomerPayment",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestModifyCustomerPayment",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestModifyCustomerPaymentWithRandomDocNo",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestDeleteCustomerPayment",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestCustomerAutofillWhenGivingInvoiceNumber",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestCustomerAutofillDoesNotOverwrite",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestCustomerNoAndIdSync",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestAppliesToInvoiceNoAndIdSync",
+        "CodeunitName":  "APIV1 - Customer Payments E2E"
+    },
+    {
+        "Method":  "TestGetPDFSalesInvoice",
+        "CodeunitName":  "APIV1 - PDF Document E2E"
+    },
+    {
+        "Method":  "TestGetPDFSalesCreditMemo",
+        "CodeunitName":  "APIV1 - PDF Document E2E"
+    },
+    {
+        "Method":  "TestGetPDFSalesQuote",
+        "CodeunitName":  "APIV1 - PDF Document E2E"
+    },
+    {
+        "Method":  "TestGetPDFPurchaseInvoice",
+        "CodeunitName":  "APIV1 - PDF Document E2E"
+    },
+    {
+        "Method":  "TestCreateJournalLineWithOverridenDefaultDimension",
+        "CodeunitName":  "APIV1 - Journal Lines E2E"
+    },
+    {
+        "Method":  "TestCreateJournalLineWithDimensionsOnAccountWithDimensionSetup",
+        "CodeunitName":  "APIV1 - Journal Lines E2E"
+    },
+    {
+        "Method":  "TestCreateJournalLineWithoutDimensionsOnAccountWithDimensionSetup",
+        "CodeunitName":  "APIV1 - Journal Lines E2E"
+    }
+]

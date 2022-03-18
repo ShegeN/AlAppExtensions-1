@@ -1,0 +1,10 @@
+﻿[
+    {
+        "Method":  "TestBasicApplicationAreaAfterInstall",
+        "CodeunitName":  "Test Basic BF"
+    },
+    {
+        "Method":  "TestSetExperienceTierToBasicExt",
+        "CodeunitName":  "Test Basic BF"
+    }
+]

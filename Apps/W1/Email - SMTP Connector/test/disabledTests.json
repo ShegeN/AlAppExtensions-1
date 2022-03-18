@@ -1,0 +1,10 @@
+﻿[
+    {
+        "Method":  "GetOAuth2CredentialsTest",
+        "CodeunitName":  "SMTP Account Auth Tests"
+    },
+    {
+        "Method":  "CheckAuthenticationSuccessTest",
+        "CodeunitName":  "SMTP Account Auth Tests"
+    }
+]

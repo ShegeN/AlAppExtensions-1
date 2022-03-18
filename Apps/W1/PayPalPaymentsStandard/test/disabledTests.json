@@ -1,0 +1,26 @@
+﻿[
+    {
+        "Method":  "TestSetupPaymentService",
+        "CodeunitName":  "MS - PayPal Standard Tests"
+    },
+    {
+        "Method":  "TestEnablingWhenClosingSetupPage",
+        "CodeunitName":  "MS - PayPal Standard Tests"
+    },
+    {
+        "Method":  "TestEditPayPalTemplate",
+        "CodeunitName":  "MS - PayPal Standard Tests"
+    },
+    {
+        "Method":  "TestResetToDefaultPayPalTemplate",
+        "CodeunitName":  "MS - PayPal Standard Tests"
+    },
+    {
+        "Method":  "TestResetToDefaultPayPalTemplateInDemoCompany",
+        "CodeunitName":  "MS - PayPal Standard Tests"
+    },
+    {
+        "Method":  "TestServiceConnectionListOpensPaymentServicesSetupCard",
+        "CodeunitName":  "MS - PayPal Standard Tests"
+    }
+]

@@ -1,0 +1,106 @@
+﻿[
+    {
+        "Method":  "AssistedSetupWithDemoUser",
+        "CodeunitName":  "AMC Banking Credential UT"
+    },
+    {
+        "Method":  "AssistedSetupWithLicensedUserNoModule",
+        "CodeunitName":  "AMC Banking Credential UT"
+    },
+    {
+        "Method":  "AssistedSetupWithLicensedUserWithModule",
+        "CodeunitName":  "AMC Banking Credential UT"
+    },
+    {
+        "Method":  "TestMissingCredentialsUpdatedPmtExport",
+        "CodeunitName":  "AMC Banking Credential UT"
+    },
+    {
+        "Method":  "TestMissingCredentialsUpdatedBankStmt",
+        "CodeunitName":  "AMC Banking Credential UT"
+    },
+    {
+        "Method":  "TestMissingSetupUpdatedPmtExport",
+        "CodeunitName":  "AMC Banking Credential UT"
+    },
+    {
+        "Method":  "SendBankStmtToWebService",
+        "CodeunitName":  "AMC Bank Stmt E2E Web Serv"
+    },
+    {
+        "Method":  "DecodePaymentExportFileUsingBase64",
+        "CodeunitName":  "Base64 Decoding / Encoding"
+    },
+    {
+        "Method":  "EncodeNordeaCorpBankStatementFileUsingBase64",
+        "CodeunitName":  "Base64 Decoding / Encoding"
+    },
+    {
+        "Method":  "RequestBankListFromWebService",
+        "CodeunitName":  "Bank Name Lookup E2E"
+    },
+    {
+        "Method":  "RequestBankListFromWebServiceWithCountryFilter",
+        "CodeunitName":  "Bank Name Lookup E2E"
+    },
+    {
+        "Method":  "RequestBankListFromWebServiceWithWrongCountryFilter",
+        "CodeunitName":  "Bank Name Lookup E2E"
+    },
+    {
+        "Method":  "GetBankNameList",
+        "CodeunitName":  "Bank Name Conv Serv Lookup"
+    },
+    {
+        "Method":  "FilterBankNameList",
+        "CodeunitName":  "Bank Name Conv Serv Lookup"
+    },
+    {
+        "Method":  "FilterThenClearFilterBankNameList",
+        "CodeunitName":  "Bank Name Conv Serv Lookup"
+    },
+    {
+        "Method":  "SelectBankNameFilteredByCompanyCountryRegionCode",
+        "CodeunitName":  "Bank Name Conv Serv Lookup"
+    },
+    {
+        "Method":  "SelectBankNameFilteredByBankAccountCountryRegionCode",
+        "CodeunitName":  "Bank Name Conv Serv Lookup"
+    },
+    {
+        "Method":  "SelectBankNameFilteredByBankAccountCountryRegionCodeTwice",
+        "CodeunitName":  "Bank Name Conv Serv Lookup"
+    },
+    {
+        "Method":  "OpenBankListPageAndRefreshListBecauseDataIsOld",
+        "CodeunitName":  "Bank Name Conv Serv Lookup"
+    },
+    {
+        "Method":  "TestSaveFileConvResponseErrors",
+        "CodeunitName":  "AMC CT E2E Web Service Test"
+    },
+    {
+        "Method":  "MyTestSaveFileConvResponseErrors",
+        "CodeunitName":  "AMC CT E2E Web Service Test"
+    },
+    {
+        "Method":  "TestSyslogResponseErrors",
+        "CodeunitName":  "AMC CT E2E Web Service Test"
+    },
+    {
+        "Method":  "TestPaymentRequestWithEncoding",
+        "CodeunitName":  "AMC CT E2E Web Service Test"
+    },
+    {
+        "Method":  "TestPaymentRequestWithMissingEncoding",
+        "CodeunitName":  "AMC CT E2E Web Service Test"
+    },
+    {
+        "Method":  "TestPaymentRequestWithBlankEncoding",
+        "CodeunitName":  "AMC CT E2E Web Service Test"
+    },
+    {
+        "Method":  "SendMissingFinstaBankStmtToWebService",
+        "CodeunitName":  "AMC CT E2E Web Service Test"
+    }
+]

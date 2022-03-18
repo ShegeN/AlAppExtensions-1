@@ -1,6 +1,7 @@
 ﻿{
     "country":  "base",
     "versioningStrategy":  -1,
+    "memoryLimit": "12G",
     "appFolders":  [
                        "apps\\W1\\AMCBanking365Fundamentals\\app",
                        "apps\\W1\\AnonymizedDataSharing\\app",
