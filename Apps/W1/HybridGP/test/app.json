@@ -1,5 +1,5 @@
-{
-    "id":  "82acac14-8067-499b-8cf0-f068448dff34",
+﻿{
+    "id":  "75828c06-7253-4bf5-b54d-45d9e543bb2c",
     "name":  "Dynamics GP Intelligent Cloud Tests",
     "publisher":  "Microsoft",
     "brief":  "Tests for the Dynamics GP Intelligent Cloud extension.",
@@ -49,10 +49,10 @@
                              "version":  "20.0.0.0"
                          },
                          {
-                            "id":  "5095f467-0a01-4b99-99d1-9ff1237d286f",
-                            "name":  "Library Variable Storage",
-                            "publisher":  "Microsoft",
-                             "version":  "20.0.0.0"        
+                             "id":  "5095f467-0a01-4b99-99d1-9ff1237d286f",
+                             "name":  "Library Variable Storage",
+                             "publisher":  "Microsoft",
+                             "version":  "20.0.0.0"
                          }
                      ],
     "screenshots":  [
@@ -70,10 +70,10 @@
                      }
                  ],
     "target":  "OnPrem",
-    "resourceExposurePolicy": {
-        "allowDebugging": false,
-        "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": true
-    },
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  false,
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
     "application":  "20.0.0.0"
 }

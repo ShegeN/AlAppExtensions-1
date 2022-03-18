@@ -1,5 +1,5 @@
-{
-    "id":  "6992416f-3f39-4d3c-8242-3fff61350bea",
+﻿{
+    "id":  "6cd5e266-3454-46c6-9378-1a6c95975f06",
     "name":  "Business Central Cloud Migration - Previous Release",
     "publisher":  "Microsoft",
     "version":  "20.0.0.0",
@@ -19,22 +19,22 @@
                              "id":  "58623bfa-0559-4bc2-ae1c-0979c29fd9e0"
                          }
                      ],
-    "internalsVisibleTo": [        
-                            {
-                                "id":  "c8e46b67-1f61-46e2-a3a5-0239429e26fb",
-                                "name":  "Business Central Cloud Migration - Previous Release Tests",
-                                "publisher": "Microsoft"
-                            }
-                        ],
+    "internalsVisibleTo":  [
+                               {
+                                   "id":  "c8e46b67-1f61-46e2-a3a5-0239429e26fb",
+                                   "name":  "Business Central Cloud Migration - Previous Release Tests",
+                                   "publisher":  "Microsoft"
+                               }
+                           ],
     "screenshots":  [
 
                     ],
     "platform":  "20.0.0.0",
-    "resourceExposurePolicy": {
-        "allowDebugging": false,
-        "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": true
-    },
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  false,
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
     "target":  "OnPrem",
     "application":  "20.0.0.0"
 }

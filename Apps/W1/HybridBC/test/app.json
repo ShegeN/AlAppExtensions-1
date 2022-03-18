@@ -1,5 +1,5 @@
-{
-    "id":  "06b043ca-9d4e-4523-a603-f4f654baf8cf",
+﻿{
+    "id":  "7697804e-a288-4ccd-9cce-5a2eca3fbd6d",
     "name":  "Business Central Intelligent Cloud Tests",
     "publisher":  "Microsoft",
     "brief":  "Tests for the Business Central Intelligent Cloud extension.",
@@ -58,10 +58,10 @@
                      }
                  ],
     "target":  "OnPrem",
-    "resourceExposurePolicy": {
-        "allowDebugging": false,
-        "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": true
-    },
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  false,
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
     "application":  "20.0.0.0"
 }

@@ -1,5 +1,5 @@
-{
-    "id":  "334ef79e-547e-4631-8ba1-7a7f18e14de6",
+﻿{
+    "id":  "1f4e88e9-89bb-4f74-92e4-a4127f708aad",
     "name":  "Business Central Intelligent Cloud",
     "publisher":  "Microsoft",
     "brief":  "This extension will take you through the process to configure your Cloud Migration environment.",
@@ -23,11 +23,11 @@
 
                     ],
     "platform":  "20.0.0.0",
-    "resourceExposurePolicy": {
-        "allowDebugging": false,
-        "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": true
-    },
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  false,
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
     "target":  "OnPrem",
     "application":  "20.0.0.0"
 }

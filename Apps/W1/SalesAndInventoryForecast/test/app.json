@@ -1,5 +1,5 @@
-{
-    "id":  "cbb50af4-5f42-4b8d-a2dc-1afc5034411d",
+﻿{
+    "id":  "4b6301e4-6cc7-4272-9027-89787e4b4576",
     "name":  "Sales and Inventory Forecast Tests",
     "publisher":  "Microsoft",
     "brief":  "Tests for the Sales and Inventory Forecast extension.",
@@ -46,10 +46,10 @@
                      }
                  ],
     "target":  "OnPrem",
-    "resourceExposurePolicy": {
-        "allowDebugging": false,
-        "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": true
-    },
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  false,
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
     "application":  "20.0.0.0"
 }

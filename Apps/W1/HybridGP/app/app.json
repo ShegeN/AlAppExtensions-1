@@ -1,5 +1,5 @@
-{
-    "id":  "feeb3504-556e-4790-b28d-a2b9ce302d81",
+﻿{
+    "id":  "bc817154-dce3-45c1-b771-a0544e7377c1",
     "name":  "Dynamics GP Intelligent Cloud",
     "publisher":  "Microsoft",
     "brief":  "This extension will allow you to set up data migration from your Dynamics GP companies to your Dynamics 365 Business Central tenant through a wizard.",
@@ -28,18 +28,19 @@
     "screenshots":  [
 
                     ],
-                    "internalsVisibleTo": [
-                        {
-                           "id":  "82acac14-8067-499b-8cf0-f068448dff34",
-                           "name":  "Dynamics GP Intelligent Cloud Tests",
-                           "publisher": "Microsoft"
-                         }],
+    "internalsVisibleTo":  [
+                               {
+                                   "id":  "82acac14-8067-499b-8cf0-f068448dff34",
+                                   "name":  "Dynamics GP Intelligent Cloud Tests",
+                                   "publisher":  "Microsoft"
+                               }
+                           ],
     "platform":  "20.0.0.0",
-    "resourceExposurePolicy": {
-        "allowDebugging": false,
-        "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": true
-    },
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  false,
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
     "target":  "OnPrem",
     "application":  "20.0.0.0"
 }

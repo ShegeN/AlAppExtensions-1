@@ -1,5 +1,5 @@
-{
-    "id":  "c8e46b67-1f61-46e2-a3a5-0239429e26fb",
+﻿{
+    "id":  "cf7bad02-2168-4e1d-8857-715924b77deb",
     "name":  "Business Central Cloud Migration - Previous Release Tests",
     "publisher":  "Microsoft",
     "version":  "20.0.0.0",
@@ -43,21 +43,21 @@
                              "id":  "cf07faa6-4d21-428b-bfcf-8078c5b0e582"
                          },
                          {
-                            "name":  "Library Variable Storage",    
-                            "publisher":  "Microsoft",
-                             "version":  "20.0.0.0",           
-                            "id":  "5095f467-0a01-4b99-99d1-9ff1237d286f"       
-                        }
+                             "name":  "Library Variable Storage",
+                             "publisher":  "Microsoft",
+                             "version":  "20.0.0.0",
+                             "id":  "5095f467-0a01-4b99-99d1-9ff1237d286f"
+                         }
                      ],
     "screenshots":  [
 
                     ],
     "platform":  "20.0.0.0",
-    "resourceExposurePolicy": {
-        "allowDebugging": false,
-        "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": true
-    },
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  false,
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
     "target":  "OnPrem",
     "application":  "20.0.0.0"
 }

@@ -1,5 +1,5 @@
-{
-    "id":  "c526b3e9-b8ca-4683-81ba-fcd5f6b1472a",
+﻿{
+    "id":  "4157beb6-3a07-4ea7-a67b-58bbee2b15f0",
     "name":  "Sales and Inventory Forecast",
     "publisher":  "Microsoft",
     "brief":  "Get insights about potential sales and a clear overview of expected stock-outs.",
@@ -19,10 +19,10 @@
                     ],
     "platform":  "20.0.0.0",
     "target":  "OnPrem",
-    "resourceExposurePolicy": {
-        "allowDebugging": false,
-        "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": true
-    },
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  false,
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
     "application":  "20.0.0.0"
 }
