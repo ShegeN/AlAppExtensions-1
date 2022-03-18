@@ -4,13 +4,14 @@ Param(
 
 $parameters.multitenant = $false
 $parameters.RunSandboxAsOnPrem = $true
-#if ("$env:GITHUB_RUN_ID" -eq "") {
-    $parameters.includeAL = $true
-    $parameters.doNotExportObjectsToText = $true
-    $parameters.shortcuts = "none"
-#}
-
+$parameters.includeAL = $true
+$parameters.doNotExportObjectsToText = $true
+$parameters.shortcuts = "none"
 $parameters.doNotCheckHealth = $true
+
+$parameters | Out-Host
+
+$parameters.MemoryLimit = "16G"
 
 New-BcContainer @parameters
 
